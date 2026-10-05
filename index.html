@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>𝐌𝐑 𝐓𝐑𝐀𝐃𝐄𝐑 𝐎𝐍 𝐓𝐎𝐏</title>
+  <meta name="description" content="Join 𝐌𝐑 𝐓𝐑𝐀𝐃𝐄𝐑 𝐎𝐍 𝐓𝐎𝐏 on Telegram.">
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '2620439205074344');
+  fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2620439205074344&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #030508;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    /* Background */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 24px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 20%, rgba(0, 153, 255, 0.13), transparent 32%),
+        radial-gradient(circle at 15% 85%, rgba(0, 102, 255, 0.08), transparent 28%),
+        #030508;
+    }
+
+    .glow {
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      background: rgba(0, 132, 255, 0.08);
+      filter: blur(100px);
+      pointer-events: none;
+    }
+
+    .glow.one {
+      top: -180px;
+      left: -160px;
+    }
+
+    .glow.two {
+      bottom: -200px;
+      right: -160px;
+    }
+
+    /* Main Card */
+    .card {
+      width: 100%;
+      max-width: 430px;
+      position: relative;
+      z-index: 2;
+      padding: 38px 25px 25px;
+      border: 1px solid rgba(255,255,255,0.10);
+      border-radius: 30px;
+      background: linear-gradient(
+        145deg,
+        rgba(17, 22, 30, 0.94),
+        rgba(5, 8, 12, 0.97)
+      );
+      box-shadow:
+        0 30px 80px rgba(0,0,0,0.65),
+        inset 0 1px 0 rgba(255,255,255,0.06);
+      text-align: center;
+      backdrop-filter: blur(18px);
+    }
+
+    /* Top Label */
+    .official {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 13px;
+      border-radius: 50px;
+      background: rgba(255,255,255,0.045);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #b8c5d4;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      margin-bottom: 24px;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      background: #22c55e;
+      border-radius: 50%;
+      box-shadow: 0 0 12px rgba(34,197,94,0.8);
+    }
+
+    /* Logo */
+    .logo-box {
+      width: 118px;
+      height: 118px;
+      margin: 0 auto 22px;
+      border-radius: 28px;
+      padding: 4px;
+      background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.30),
+        rgba(0,132,255,0.30),
+        rgba(255,255,255,0.05)
+      );
+      box-shadow:
+        0 0 35px rgba(0,132,255,0.13),
+        0 18px 45px rgba(0,0,0,0.45);
+    }
+
+    .logo-box img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: 24px;
+      background: #080b10;
+    }
+
+    /* Title */
+    h1 {
+      font-size: clamp(27px, 7vw, 35px);
+      line-height: 1.15;
+      font-weight: 900;
+      letter-spacing: -0.8px;
+      margin-bottom: 12px;
+      color: #ffffff;
+      text-shadow: 0 0 25px rgba(255,255,255,0.08);
+    }
+
+    .subtitle {
+      color: #8995a5;
+      font-size: 13px;
+      line-height: 1.6;
+      max-width: 300px;
+      margin: 0 auto 27px;
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 9px;
+      margin-bottom: 25px;
+    }
+
+    .stat {
+      flex: 1;
+      padding: 13px 7px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.07);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 17px;
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .stat span {
+      color: #737f8f;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* CTA */
+    .join-btn {
+      width: 100%;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 11px;
+      border: 0;
+      border-radius: 17px;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 0.7px;
+      background: linear-gradient(135deg, #168cff, #006bea);
+      box-shadow:
+        0 14px 32px rgba(0,110,240,0.28),
+        inset 0 1px 0 rgba(255,255,255,0.22);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        0 18px 38px rgba(0,110,240,0.38),
+        inset 0 1px 0 rgba(255,255,255,0.25);
+    }
+
+    .join-btn:active {
+      transform: scale(0.98);
+    }
+
+    .telegram-icon {
+      width: 23px;
+      height: 23px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.16);
+      font-size: 13px;
+    }
+
+    /* Bottom */
+    .secure {
+      margin-top: 18px;
+      color: #5f6b79;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .footer {
+      margin-top: 23px;
+      padding-top: 17px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      color: #424b57;
+      font-size: 9px;
+      letter-spacing: 0.8px;
+    }
+
+    /* Mobile */
+    @media (max-height: 700px) {
+      .page {
+        padding: 14px;
+      }
+
+      .card {
+        padding: 25px 21px 20px;
+      }
+
+      .official {
+        margin-bottom: 16px;
+      }
+
+      .logo-box {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      .subtitle {
+        margin-bottom: 19px;
+      }
+
+      .stats {
+        margin-bottom: 18px;
+      }
+
+      .join-btn {
+        min-height: 53px;
+      }
+
+      .footer {
+        margin-top: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="glow one"></div>
+    <div class="glow two"></div>
+
+    <section class="card">
+
+      <div class="official">
+        <span class="dot"></span>
+        OFFICIAL TELEGRAM COMMUNITY
+      </div>
+
+      <!-- Upload your logo to GitHub as logo.png -->
+      <div class="logo-box">
+        <img src="logo.png" alt="MR TRADER ON TOP Logo">
+      </div>
+
+      <h1>𝐌𝐑 𝐓𝐑𝐀𝐃𝐄𝐑 𝐎𝐍 𝐓𝐎𝐏</h1>
+
+      <p class="subtitle">
+        Join our growing Telegram community and stay connected with the latest updates.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>5K+</strong>
+          <span>MEMBERS</span>
+        </div>
+
+        <div class="stat">
+          <strong>24/7</strong>
+          <span>ACTIVE</span>
+        </div>
+
+        <div class="stat">
+          <strong>LIVE</strong>
+          <span>COMMUNITY</span>
+        </div>
+      </div>
+
+      <a
+        class="join-btn"
+        href="https://t.me/+bxnfLt0BS8M3MDA1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="telegram-icon">➤</span>
+        JOIN TELEGRAM
+      </a>
+
+      <div class="secure">
+        ✓ Free to Join • Official Channel
+      </div>
+
+      <div class="footer">
+        © 2026 𝐌𝐑 𝐓𝐑𝐀𝐃𝐄𝐑 𝐎𝐍 𝐓𝐎𝐏
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
